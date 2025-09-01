@@ -1,0 +1,24 @@
+.md
+
+bun.lock
+pnpm-lock.yaml
+package-lock.json
+
+# Ignore files
+next-env.d.ts
+.env*
+tsconfig.json
+*.jpg
+*.png
+*.svg
+.gitignore
+
+# Ignore directories
+node_modules
+src/components/ui/*
+.husky/*
+.next/*
+.git/*
+.prettierignore
+public
+src/db/migrations/*
